@@ -1,0 +1,1 @@
+https://github.com/Simon1207/Snort-Rules/blob/master/local.rules

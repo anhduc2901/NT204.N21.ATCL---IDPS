@@ -1,0 +1,24 @@
+KT cấu hình
+-snort -T -c /etc/snort/nhom7-snort.conf -Q -i ens37:ens38
+Chạy mode inline
+-snort -c /etc/snort/nhom7-snort.conf -Q -i ens37:ens38
+
+
+file chứa rules :
+nano /etc/snort/rules/nhom7.rules
+
+Nơi chứa logs :
+ cat /var/log/snort/alert
+
+
+
+
+
+
+hydra -l <tên người dùng FTP> -P <đường dẫn đến file chứa danh sách các mật khẩu> ftp://<địa chỉ IP của Metasploitable>:21
+
+
+cat /proc/sys/net/ipv4/ip_forward
+
+
+echo 1 > /proc/sys/net/ipv4/ip_forward

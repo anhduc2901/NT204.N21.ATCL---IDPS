@@ -1,0 +1,12 @@
+-Signature là 1 bộ rule (mẫu) ngăn chặn tấn công đã đc biết trước
+
+-Kỹ thuật signature-based : so sánh các signature với các sự kiện quan sát đc để xác 
+định sự cố có thể có
+
++ƯU :
+- độ chính xác cao khi phát hiện tấn công đã biết , tỉ lệ sai thấp
+
++Nhược :
+- không thê phát hiện nếu không biết trước
+=> yêu cầu cập nhật liên tục CSDL
+- Việc triển khai và cập nhật tốn tgian và khó

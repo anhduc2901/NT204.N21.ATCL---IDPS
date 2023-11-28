@@ -1,0 +1,6 @@
+Meta2
+
+/etc/network.interfaces
+
+sudo /etc/init.d/networking restart
+

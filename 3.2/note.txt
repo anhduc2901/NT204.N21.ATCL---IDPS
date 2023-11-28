@@ -1,0 +1,14 @@
+Client ping Server (hình ảnh, full màn hình)
+
+Server ping Client (hình ảnh, full màn hình)
+
+Phiên bản của Snort (hình ảnh, lệnh: snort -V, full màn hình)
+
+
+Snort rule phát hiện và cảnh báo khi thấy gói ICMP (Ghi Snort rule đã viết tại đây)
+
+
+Alert log của Snort khi phát hiện gói ICMP (hình ảnh, full màn hình)
+
+
+alert icmp any any -> $HOME_NET any (msg:"Hello ba gia ,bat ngo chua ba za";sid:10000001; rev:001;)
